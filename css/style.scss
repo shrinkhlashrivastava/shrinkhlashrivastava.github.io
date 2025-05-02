@@ -503,7 +503,7 @@ pre {
     }
     
     .case-study-description {
-      font-size: 1rem;
+      font-size: 1.25rem;
       color: #333;
       margin-bottom: 1.5rem;
       line-height: 1.6;
@@ -527,5 +527,22 @@ pre {
       .case-study-content {
         padding: 0;
       }
+    }
+
+    .case-study-tags {
+      margin-bottom: 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    
+    .case-study-tag {
+      background-color: #f0f0f0;
+      color: #333;
+      font-size: 0.8rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
     
