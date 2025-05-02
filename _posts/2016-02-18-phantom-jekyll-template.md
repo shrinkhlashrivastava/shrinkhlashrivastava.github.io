@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: default
 position: left
 title: 'Phantom'
 date: 2016-02-20 21:15:00
