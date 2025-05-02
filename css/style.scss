@@ -443,3 +443,89 @@ pre {
     .highlight .vg { color: #000000 } /* Name.Variable.Global */
     .highlight .vi { color: #000000 } /* Name.Variable.Instance */
     .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
+    
+    .case-study {
+      display: flex;
+      justify-content: center;
+      margin: 4rem 0;
+    }
+    
+    .case-study-inner {
+      display: flex;
+      flex-direction: row;
+      gap: 0; /* Remove gap to prevent white space */
+      max-width: 1000px;
+      width: 100%;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+    
+    .case-study-image {
+      flex: 1;
+      overflow: hidden;
+    }
+    
+    .case-study-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 0; /* Remove border-radius if you want full edge-to-edge */
+      transition: transform 0.3s ease;
+    }
+    
+    .case-study-inner:hover .case-study-image img {
+      transform: scale(1.03);
+    }
+    
+    .case-study-content {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .case-study-title {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    
+    .case-study-date {
+      font-size: 0.9rem;
+      color: #999;
+      margin-bottom: 1rem;
+    }
+    
+    .case-study-description {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+    
+    .case-study-link {
+      font-weight: 500;
+      color: #0070f3;
+    }
+    
+    @media (max-width: 768px) {
+      .case-study-inner {
+        flex-direction: column !important;
+      }
+    
+      .case-study-image img {
+        width: 100%;
+        height: auto;
+      }
+    
+      .case-study-content {
+        padding: 0;
+      }
+    }
+    

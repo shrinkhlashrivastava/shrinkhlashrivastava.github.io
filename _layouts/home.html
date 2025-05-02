@@ -16,19 +16,21 @@
 
             <div class="break"></div>
 
-            {% for post in paginator.posts %}
-              <div class="wow fadeIn">
-              {% if post.position == "left" %}
-                {% include content-left.html %}
-              {% endif %}
-
-              {% if post.position == "right" %}
-                {% include content-right.html %}
-              {% endif %}
-              </div>
-            {% endfor %}
-
-            {% include pagination.html %}
+            {% for post in site.categories.case-studies %}
+            <div class="case-study {% if forloop.index0 % 2 == 0 %}left{% else %}right{% endif %}">
+              <a href="{{ post.url }}" class="case-study-inner">
+                <div class="case-study-image">
+                  <img src="{{ post.featured_image }}" alt="{{ post.title }}">
+                </div>
+                <div class="case-study-content">
+                  <h2 class="case-study-title">{{ post.title }}</h2>
+                  <p class="case-study-date">{{ post.date | date: "%B %d, %Y" }}</p>
+                  <p class="case-study-description">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                  <span class="case-study-link">View Case Study →</span>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
 
           </div>
         </div>
