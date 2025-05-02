@@ -28,13 +28,13 @@
           <div class="hero-buttons">
 
             {% if site.twitter_username != '' %}
-              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+              <a href="https://x.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-x fa-lg"></i>X</button></a>
             {% endif %}
-            {% if site.github_username != '' %}
+            {% if site.linkedin_username != '' %}
+              <a href="https://www.linkedin.com/in/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
+            {% endif %}
+            {% if site.behance_username != '' %}
               <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
-            {% endif %}
-            {% if site.medium_username != '' %}
-              <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
             {% endif %}
 
           </div>
