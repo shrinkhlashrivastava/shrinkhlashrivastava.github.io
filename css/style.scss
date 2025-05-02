@@ -15,12 +15,14 @@
 
 @import '../_sass/bootstrap';
 @import '../_sass/mixins';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
 %merriweather { font-family: 'Merriweather', serif; }
+%outfit {font-family: 'Outfit', sans-serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -34,12 +36,12 @@ $secondary: #FF7B7B;
 
 body {
   background-color: #e9edf0;
-  @extend %opensans;
+  @extend %outfit;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %merriweather;
+  @extend %outfit;
   font-weight: 700;
 }
 
