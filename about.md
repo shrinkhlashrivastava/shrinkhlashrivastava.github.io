@@ -3,203 +3,53 @@ layout: inner
 title: About
 permalink: /about/
 ---
-## Markdown
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Hi, I’m [Your Name] 👋
 
-[Link to another page](/index.html).
+I’m a **UI/UX designer** passionate about crafting meaningful, functional, and human-centered experiences. My journey into design is driven by a deep curiosity for how people interact with technology and a strong desire to reduce the friction they face.
 
-There should be whitespace between paragraphs.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-{% highlight js %}
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-{% endhighlight %}
-
-{% highlight ruby %}
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-{% endhighlight %}
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+I believe design is not just about making things look good—it's about solving real problems with empathy and intention. I aim to design interfaces that not only serve a purpose but also respect users’ time and attention.
 
 ---
 
-### Here is an unordered list:
+## What I care about
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Wide image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-{% highlight txt %}
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-{% endhighlight %}
-
-{% highlight txt %}
-The final element.
-{% endhighlight %}
+- **Designing with empathy**: Users are at the heart of every product I create.
+- **Purpose-driven work**: I strive to align design goals with real-world needs.
+- **Clarity over cleverness**: Good design should be intuitive, not confusing.
+- **Collaboration**: I thrive in environments where design is a team sport.
 
 ---
 
-## Syntax highlighting
+## What I’m doing now
 
-Jekyll has [built in support](https://jekyllrb.com/docs/templates/#code-snippet-highlighting) for syntax highlighting of over 60 languages thanks to [Rouge](http://rouge.jneen.net/).
+Currently, I’m working as a **design intern at [FirstContact](https://www.firstcontact.lgbt/)**, helping build tools that are inclusive and impactful. I’m learning how to articulate my design decisions, gather feedback effectively, and iterate with intention.
 
-To render a code block with syntax highlighting, surround your code as follows:
+Outside of work, I’m exploring:
 
-{% highlight markdown %}
-{% raw %}
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-{% endraw %}
-{% endhighlight %}
-
-[Pygments](http://pygments.org/) styles are present under section 6.0 of `css/style.scss` for customization.
-
-### Examples
+- Motion design & microinteractions
+- Accessibility and inclusive design
+- How to bring joy into interfaces ✨
 
 ---
 
-#### Bash
+## Tools I use
 
-{% highlight bash %}
->_ ssh -i ~/.ssh/id_rsa account@host.com
-account@host:~$
-$ var="my-value"
-$ echo $var
-my-value
-$ logout
-{% endhighlight %}
+- **Design**: Figma, Adobe Illustrator, Photoshop  
+- **Prototyping**: Framer, FigJam  
+- **Code**: HTML/CSS, a bit of JS  
+- **Other**: Notion, Obsidian, Pen & paper  
 
-#### HTML
+---
 
-{% highlight html %}
-<!DOCTYPE html>
-<html>
- <head>
-   <meta charset="UTF-8">
-   <title>title</title>
- </head>
- <body>
+## Let’s connect
 
- </body>
-</html>
-{% endhighlight %}
+I love talking to people who care about design, research, or just making the internet a kinder place. Feel free to reach out if you want to chat or collaborate!
 
-#### CSS
+- 📫 [Email Me](mailto:your.email@example.com)  
+- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)  
+- 🎨 [Behance](https://behance.net/yourprofile)  
 
-{% highlight css %}
-/*--------------------------------------------------------------
-	1.0 Defaults
---------------------------------------------------------------*/
+---
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
-}
-
-body {
-  background-color: #e9edf0;
-  @extend %opensans;
-  -webkit-font-smoothing: antialiased;
-}
-{% endhighlight %}
-
-#### YAML
-
-{% highlight yaml %}
-### Phantom settings
-paginate: 10
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
-
-#### Phantom Navigation menu
-enable_nav: true
-nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
-{% endhighlight %}
+_Thanks for stopping by 👋_
