@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: inner
 position: left
 title: 'Phantom'
 date: 2016-02-20 21:15:00
@@ -10,6 +10,7 @@ tags: Jekyll Sass Bootstrap
 button_icon: 'flask'
 button_text: 'Visit Project'
 lead_text: "A minimalist Jekyll theme that you're looking at it right now"
+permalink: /post/
 ---
 
 #### TEST
