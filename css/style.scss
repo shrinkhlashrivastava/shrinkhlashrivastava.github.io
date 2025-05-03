@@ -546,3 +546,25 @@ pre {
       letter-spacing: 0.5px;
     }
     
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+    
+    .image-grid img {
+      width: 100%;
+      max-width: 300px;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    // .image-grid img:hover {
+    //   transform: scale(1.2); /* Zoom in on hover */
+    // }
+
+  li {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  
