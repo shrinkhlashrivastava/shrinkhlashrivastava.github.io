@@ -1,18 +1,21 @@
 <div class="container">
-
-  <div class="row">
-
-    <div class="col-md-12">
-
-      <div class="hero-container">
-
-        <div class="hero-content">
-
-          {% if site.title != '' %}
-          <img src="{{ site.url }}/img/fasfas.png" style="display: block; margin: 0 auto; width: 40%; height: 40%;">
-          <h1 class="text-center">{{site.title}}</h1>
-          {% endif %}
-          <!-- 
+    <div class="row">
+        <div class="col-md-12">
+            <div class="hero-container">
+                <div class="hero-content">
+                    {% if site.title != '' %}
+                    <img
+                        src="{{ site.url }}/img/fasfas.png"
+                        style="
+                            display: block;
+                            margin: 0 auto;
+                            width: 40%;
+                            height: 40%;
+                        "
+                    />
+                    <h1 class="text-center">{{site.title}}</h1>
+                    {% endif %}
+                    <!--
           {% if site.enable_contact == true %}
           <p class="text-center">
             I am a UI/UX designer whose design philosophies stem from the lack of empathy in the world around us and is deeply fueled by insatiable curiosity alongside the love of solving real user problems. Currently, as a fresher intern, I am trying to cultivate a design voice during my work in UI/UX design through active engagement, meaningful conversations, and passion-driven work that involves creating user interfaces that extend beyond aesthetics, incorporating functionality and significance. I believe that a good design demonstrates an extraordinary capability of valuing the time and attention the users provide. I consider myself fortunate to be working across the full design process, starting with research, wireframes, prototypes, and culminating in building high-fidelity prototypes because all of these contribute to the crafting of purpose-driven products. It is not only the tools that help me bring my ideas to life, like Figma, that interest me, but what lies beyond the screens excites me the most. As I continue to discover more about myself, exploring my design style, I know one thing for certain. What is going to ground me is intentionally designing work that is collaborative, human-centered, and driven by the intention of deconstructing the barriers we face.
@@ -22,31 +25,46 @@
             {% include contact-modal.html %}
             {% endif %}
           </p>
-          {% endif %} 
+          {% endif %}
           -->
-          <p class="text-center">
-            I am a <b><u>UI/UX designer</u></b>. I create better experiences for people while driving business. Currently helping people at <a href="https://www.firstcontact.lgbt/"><u>FirstContact</u></a>.
-          </p>
-          <div class="hero-buttons">
-            {% if site.linkedin_username != '' %}
-              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
-            {% endif %}
-            {% if site.behance_username != '' %}
-              <a href="https://behance.com/{{ site.behance_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-behance fa-lg"></i>Behance</button></a>
-            {% endif %}
+                    <p class="text-center">
+                        I am a <b><u>UI/UX designer</u></b
+                        >. I create better experiences for people while driving
+                        business. Currently helping people at
+                        <a href="https://www.firstcontact.lgbt/"
+                            ><u>FirstContact</u></a
+                        >.
+                    </p>
+                    <div class="hero-buttons">
+                        {% if site.linkedin_username != '' %}
+                        <a
+                            href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
+                            ><button class="btn btn-default btn-lg">
+                                <i class="fa fa-linkedin fa-lg"></i>LinkedIn
+                            </button></a
+                        >
+                        {% endif %} {% if site.behance_username != '' %}
+                        <a
+                            href="https://behance.com/{{ site.behance_username }}"
+                            ><button class="btn btn-default btn-lg">
+                                <i class="fa fa-behance fa-lg"></i>Behance
+                            </button></a
+                        >
+                        {% endif %}
 
-          </div>
+                        <a
+                            href="https://drive.google.com/file/d/1n-MdEIodEHBAAIZ4p7kJmgADZ666HOpb/view?usp=drive_link"
+                            ><button class="btn btn-default btn-lg">
+                                <i class="fa fa-file fa-lg"></i>Resume
+                            </button></a
+                        >
+                    </div>
+                </div>
+            </div>
 
+            <a class="section-jump text-center" href="#portfolio">
+                <i class="fa fa-angle-down fa-3x"></i>
+            </a>
         </div>
-
-      </div>
-
-      <a class="section-jump text-center" href="#portfolio">
-        <i class="fa fa-angle-down fa-3x"></i>
-      </a>
-
     </div>
-
-  </div>
-
 </div>
