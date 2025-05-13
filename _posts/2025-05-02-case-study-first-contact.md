@@ -5,7 +5,7 @@ date: 2025-05-02
 categories: case-studies
 tags: [User Experience, Information Architecture, internship]
 excerpt: "This case study outlines the process of redesigning a website's navigation menu to improve usability and accessibility. It walks through the steps taken—from auditing the existing structure and defining user personas to designing distinct experiences for logged-in and logged-out users, incorporating feedback, and finalizing a more intuitive and personalized menu system."
-featured_image: '/img/posts/first-contact.jpg'
+featured_image: '/img/ia.jpg'
 # project_link: 'https://github.com/jamigibbs/bloc-jams-angular'
 ---
 <div style="text-align: center;">
@@ -100,8 +100,10 @@ We also explored “first-contact clarity”: what users expect to see immediate
 ![](/img/posts/ia-case-study/ideation%20hybrid.jpg)
 ![](/img/posts/ia-case-study/top%20nav.jpg)
 ![](/img/posts/ia-case-study/another%20ideation.jpg)
+___
 
-
+![](/img/posts/ia-case-study/manager.jpeg)
+___
 ### Manager Insights: Shaping First Impressions
 
 Early in the project, our team received focused, strategic guidance from the UX manager that shaped how we approached the redesign—especially around the First Contact experience for new users.
