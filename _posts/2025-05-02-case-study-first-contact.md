@@ -100,35 +100,11 @@ We also explored “first-contact clarity”: what users expect to see immediate
 ![](/img/posts/ia-case-study/ideation%20hybrid.jpg)
 ![](/img/posts/ia-case-study/top%20nav.jpg)
 ![](/img/posts/ia-case-study/another%20ideation.jpg)
-___
+---
 
 ![](/img/posts/ia-case-study/manager.jpeg)
-___
-### Manager Insights: Shaping First Impressions
 
-Early in the project, our team received focused, strategic guidance from the UX manager that shaped how we approached the redesign—especially around the First Contact experience for new users.
-
-🗣️ “A person who has no idea what First Contact is—we have 3–5 seconds to get them interested.”
-
-🗣️ “If it doesn’t help the user sign up or sign in, it’s adding to their mental load.”
-
-These insights helped us shift our mindset from “showing everything” to **only showing what matters**—simplifying the layout, decluttering the homepage, and placing **Sign Up / Sign In** as the primary (and only) call to action for new users.
-
-
-#### Design Priorities Informed by Feedback:
-
-- **Keep it simple:** Avoid overwhelming first-time visitors with too many choices.
-- **Lead with clarity:** Clearly communicate what First Contact is and who it’s for.
-- **Remove distractions:** Eliminate any element that doesn’t help a user take the next step.
-- **Position as a lifestyle space:** Make First Contact feel like a welcoming part of someone’s creative and queer journey—not just another platform.
-- **Revisit the IA with fresh questions:**
-    - What is First Contact?
-	- Who is coming here?
-	- Why are they coming?
-	- What will make them join?
-
-This feedback grounded our work and ensured we were always designing **with the right users—and the right goals—in mind.**
-
+---
 ### Wireframing
 I created low-fidelity wireframes to demonstrate how the menus would function. These included:
 - Visual differences between guest and member views
