@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.bg-light-pink {
+    background-color: #ffcfcf;
+}
+
+.bg-light-voilet {
+    background-color: #e8e2f6;
+}
+
+.bg-light-green {
+    background-color: #d5eddc;
+}
+
+.flip-horizontal {
+    transform: scaleX(-1);
+}
+
+.text-dark-custom {
+    color: #302e2c;
+    font-family: "Inter", sans-serif;
+}
+
+.btn-custom-pill {
+    padding: 16px 32px;
+    color: black;
+    font-size: 16.3px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 25.5px;
+    letter-spacing: 0.3px;
+    border-radius: 75px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0 black;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+.inconsolata {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+}
+
+.ls-2px {
+    letter-spacing: 2px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.outline-red {
+    outline: 3px solid #ffadad;
+    outline-offset: -5px;
+}
+
+.outline-voilet {
+    outline: 3px solid #cabbe9;
+    outline-offset: -5px;
+}
+
+.shadow-custom {
+    /* box-shadow: 3px 3px 0px #ffadad; */
+}
