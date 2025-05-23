@@ -39,11 +39,72 @@
                     id="navbarNav"
                 >
                     <ul class="navbar-nav">
-                        <li class="nav-item me-3">
-                            <a class="nav-link" href="#">Case Studies</a>
+                        <!-- Case Studies with dropdown -->
+                        <li class="nav-item dropdown me-3">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="caseStudiesDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Case Studies
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="caseStudiesDropdown"
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="case-study/case-study-1.html"
+                                        >Navigation & IA Redesign</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Search Member Page Redesign</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Micro Interaction In Chrome</a
+                                    >
+                                </li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+
+                        <!-- About with Resume dropdown -->
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="aboutDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                About
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="aboutDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >About Me</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="/path/to/resume.pdf"
+                                        target="_blank"
+                                        >Resume</a
+                                    >
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -133,7 +194,7 @@
                                 </p>
 
                                 <a
-                                    href="#"
+                                    href="case-study/case-study-1.html"
                                     class="btn btn-custom-pill mt-4"
                                     style="background-color: #ffffff"
                                 >
@@ -549,7 +610,7 @@
                             <!-- Navigation Links -->
                             <nav class="nav flex-column">
                                 <a
-                                    href="#"
+                                    href="case-study/case-study-1.html"
                                     class="nav-link px-0"
                                     style="
                                         font-size: 14px;
