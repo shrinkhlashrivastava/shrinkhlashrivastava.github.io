@@ -1,7 +1,773 @@
----
-layout: home
-pagination: 
-  enabled: true
----
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Shrinkhla – Product Designer</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-white px-5 py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo" height="40" />
+                </a>
 
-<!-- BLANK -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarNav"
+                >
+                    <ul class="navbar-nav">
+                        <!-- Case Studies with dropdown -->
+                        <li class="nav-item dropdown me-3">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="caseStudiesDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Case Studies
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="caseStudiesDropdown"
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="case-study/case-study-1.html"
+                                        >Navigation & IA Redesign</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Search Member Page Redesign</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Micro Interaction In Chrome</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- About with Resume dropdown -->
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="aboutDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                About
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="aboutDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >About Me</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="/path/to/resume.pdf"
+                                        target="_blank"
+                                        >Resume</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section
+            class="container py-5 d-flex flex-column flex-lg-row align-items-center"
+        >
+            <div class="col-lg-8">
+                <p
+                    class="inter mb-3 text-uppercase text-secondary ls-2px"
+                    style="font-weight: 500"
+                >
+                    Hi, I’m Shrinkhla 👋
+                </p>
+                <h1 class="azeret-mono my-2" style="font-weight: 500">
+                    I'm a product designer <br />From Curiosity to Crafting
+                    Design
+                </h1>
+                <p class="inter my-2" style="font-weight: 400; font-size: 16px">
+                    I create better experiences for people while driving
+                    business.
+                </p>
+                <div class="mt-4">
+                    <a
+                        href="#"
+                        class="btn btn-custom-pill m-2"
+                        style="background-color: #ffadad"
+                    >
+                        Case Studies
+                    </a>
+                    <a href="#" class="btn btn-custom-pill m-2">
+                        Resume<i class="bi bi-arrow-up-right"></i
+                    ></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+                <img
+                    src="img/banner-hero.png"
+                    class="img-fluid rounded-circle"
+                    alt="Avatar"
+                    style="max-width: 500px"
+                />
+            </div>
+        </section>
+
+        <!-- Case Study Cards -->
+        <section class="container my-5">
+            <div
+                class="my-section-container d-flex flex-column justify-content-center align-items-center"
+            >
+                <div class="bg-light-pink py-5 rounded-5 my-4">
+                    <div class="container px-3 px-md-5">
+                        <div class="row justify-content-center">
+                            <div
+                                class="col-8 col-md-10 col-lg-8 align-self-center"
+                            >
+                                <img
+                                    src="img/fclogo.png"
+                                    class="my-3"
+                                    style="max-width: 120px"
+                                />
+                                <p
+                                    class="h3 inconsolata ls-2px"
+                                    style="font-family: 600"
+                                >
+                                    Navigation & IA Redesign
+                                </p>
+                                <p class="inconsolata" style="font-family: 400">
+                                    Simplified navigation to reduce friction and
+                                    improve user flow.
+                                </p>
+                                <p
+                                    class="text-dark-custom fs-6 fs-md-5 lh-base text-justify"
+                                    style="letter-spacing: 0.2px; width: 85%"
+                                >
+                                    This case study follows the journey of
+                                    redesigning a website’s navigation to make
+                                    it more usable, accessible, and user aware.
+                                    From auditing the existing structure to
+                                    understanding real user needs, we crafted
+                                    distinct experiences for logged in and
+                                    logged out, users shaping a menu that feels
+                                    intuitive, personal, and easy to navigate.
+                                </p>
+
+                                <a
+                                    href="case-study/case-study-1.html"
+                                    class="btn btn-custom-pill mt-4"
+                                    style="background-color: #ffffff"
+                                >
+                                    Read Case Studies
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-4 text-center mt-4 mt-lg-0 d-flex align-items-center justify-content-center"
+                            >
+                                <img
+                                    src="img/case-study-1.png"
+                                    class="img-fluid"
+                                    alt="IA Case Study"
+                                    style="max-width: 400px"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-light-voilet py-5 rounded-5 my-4">
+                    <div class="container px-3 px-md-5">
+                        <div class="row justify-content-center">
+                            <div
+                                class="col-8 col-md-10 col-lg-8 align-self-center"
+                            >
+                                <img
+                                    src="img/fclogo.png"
+                                    class="my-3"
+                                    style="max-width: 120px"
+                                />
+                                <p
+                                    class="h3 inconsolata ls-2px"
+                                    style="font-family: 600"
+                                >
+                                    Search Member Page Redesign
+                                </p>
+                                <p class="inconsolata" style="font-family: 400">
+                                    Redesigned the search page for clarity,
+                                    usability, and higher engagement.
+                                </p>
+                                <p
+                                    class="text-dark-custom fs-6 fs-md-5 lh-base text-justify"
+                                    style="letter-spacing: 0.2px; width: 85%"
+                                >
+                                    First Contact’s Search Member page was
+                                    clunky, unintuitive, and overlooked. As core
+                                    designer of user experience, I reimagined
+                                    the experience - streamlining filters,
+                                    redesigning member cards. By prototyping
+                                    quickly and being close to our product and
+                                    engineering teams, we transformed a
+                                    forgotten page into a clear, reliable, and
+                                    widely utilized tool.
+                                </p>
+
+                                <a
+                                    href="#"
+                                    class="btn btn-custom-pill mt-4"
+                                    style="background-color: #ffffff"
+                                >
+                                    Read Case Studies
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-4 text-center mt-4 mt-lg-0 d-flex align-items-center justify-content-center"
+                            >
+                                <img
+                                    src="img/case-study-2.png"
+                                    class="img-fluid"
+                                    alt="IA Case Study"
+                                    style="max-width: 400px"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-light-green py-5 rounded-5 my-4">
+                    <div class="container px-3 px-md-5">
+                        <div class="row justify-content-center">
+                            <div
+                                class="col-8 col-md-10 col-lg-8 align-self-center"
+                            >
+                                <img
+                                    src="img/fclogo.png"
+                                    class="my-3"
+                                    style="max-width: 120px"
+                                />
+                                <p
+                                    class="h3 inconsolata ls-2px"
+                                    style="font-family: 600"
+                                >
+                                    Search Member Page Redesign
+                                </p>
+                                <p class="inconsolata" style="font-family: 400">
+                                    Redesigned the search page for clarity,
+                                    usability, and higher engagement.
+                                </p>
+                                <p
+                                    class="text-dark-custom fs-6 fs-md-5 lh-base text-justify"
+                                    style="letter-spacing: 0.2px; width: 85%"
+                                >
+                                    First Contact’s Search Member page was
+                                    clunky, unintuitive, and overlooked. As core
+                                    designer of user experience, I reimagined
+                                    the experience - streamlining filters,
+                                    redesigning member cards. By prototyping
+                                    quickly and being close to our product and
+                                    engineering teams, we transformed a
+                                    forgotten page into a clear, reliable, and
+                                    widely utilized tool.
+                                </p>
+
+                                <a
+                                    href="#"
+                                    class="btn btn-custom-pill mt-4"
+                                    style="background-color: #ffffff"
+                                >
+                                    Read Case Studies
+                                </a>
+                            </div>
+                            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+                                <img
+                                    src="img/case-study-2.png"
+                                    class="img-fluid"
+                                    alt="IA Case Study"
+                                    style="max-width: 500px"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+
+        <section
+            class="container py-5 d-flex flex-column flex-lg-row align-items-center"
+        >
+            <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                <img
+                    src="img/banner-hero.png"
+                    class="img-fluid rounded-circle flip-horizontal"
+                    alt="Avatar"
+                    style="max-width: 600px"
+                />
+            </div>
+            <div class="col-lg-6">
+                <div
+                    class="my-section-container d-flex flex-column justify-content-center align-items-center"
+                >
+                    <div>
+                        <p
+                            class="inter mb-3 text-uppercase text-secondary ls-2px"
+                            style="font-weight: 500"
+                        >
+                            About me!? I’m Shrinkhla
+                        </p>
+
+                        <h3 class="azeret-mono mb-3">
+                            I craft design solutions that are grounded in
+                            empathy and built with intention.
+                        </h3>
+
+                        <p class="text-body mb-3" style="max-width: 750px">
+                            I’m a UX/UI Designer who is convinced that good
+                            design shouldn’t be loud but is instead thoughtful,
+                            quiet, and intuitive. My journey toward design was
+                            inspired by a simple question:
+                        </p>
+
+                        <p class="text-secondary mb-3" style="max-width: 750px">
+                            Why is it that some online interactions feel so
+                            natural, but others are frustratingly disconnected?
+                        </p>
+
+                        <p class="text-body" style="max-width: 750px">
+                            That inquiry led to an enthusiasm for not just
+                            creating something beautiful, but also something
+                            comfortable. Now, I’m realizing that passion in the
+                            form of hands-on experience as a design intern,
+                            learning what it is to construct with compassion and
+                            intention.
+                        </p>
+                    </div>
+                    <div class="container">
+                        <div class="d-flex justify-content-end mt-4">
+                            <a href="#" class="btn btn-custom-pill">
+                                Learn More
+                                <i class="bi bi-arrow-up-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Placeholder -->
+        <section
+            class="container py-5 d-flex flex-column flex-lg-row align-items-center"
+        >
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="azeret-mono">What people have said</h2>
+                </div>
+
+                <div
+                    class="d-flex flex-nowrap overflow-auto gap-4"
+                    style="
+                        scroll-snap-type: x mandatory;
+                        -webkit-overflow-scrolling: touch;
+                    "
+                >
+                    <!-- Testimonial Card 1 -->
+                    <div
+                        class="flex-shrink-0"
+                        style="
+                            scroll-snap-align: start;
+                            width: 100%;
+                            max-width: 560px;
+                        "
+                    >
+                        <div
+                            class="bg-white rounded-5 shadow-custom outline-red p-5 d-flex flex-column justify-content-center align-items-center text-center gap-3 h-100"
+                            style="min-height: 400px"
+                        >
+                            <p
+                                class="mb-0"
+                                style="
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    line-height: 1.5;
+                                    letter-spacing: 0.13px;
+                                "
+                            >
+                                We worked together in one redesigning team
+                                project. She gave us unique ideas and different
+                                views on a scenario. Which made us come up with
+                                apt solutions easily and efficiently. She got
+                                the team flowing by leading our brainstorming
+                                sessions. Truly a good partner to work with!!
+                            </p>
+                            <p
+                                class="text-uppercase fw-semibold mb-0"
+                                style="
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    letter-spacing: 2px;
+                                "
+                            >
+                                Sruthi - UI UX Designer
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 2 -->
+                    <div
+                        class="flex-shrink-0"
+                        style="
+                            scroll-snap-align: start;
+                            width: 100%;
+                            max-width: 560px;
+                        "
+                    >
+                        <div
+                            class="bg-white rounded-5 shadow-custom outline-red p-5 d-flex flex-column justify-content-center align-items-center text-center gap-3 h-100"
+                            style="min-height: 400px"
+                        >
+                            <p
+                                class="mb-0"
+                                style="
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    line-height: 1.5;
+                                    letter-spacing: 0.13px;
+                                "
+                            >
+                                I had the pleasure of working with Shrinkhla
+                                during our internship at First Contact, where we
+                                collaborated as teammates on several design
+                                projects. Shrinkhla was consistent in
+                                implementing her creativity and out-of-the-box
+                                thinking into every piece of work we did. What
+                                stood out the most was her patience and openness
+                                to feedback—qualities that made working with her
+                                both productive and easy. She brought fresh
+                                perspectives to our design challenges and was
+                                always willing to listen, adapt, and improve.
+                                She's also a very friendly person, thus
+                                providing a wonderful and positive experience to
+                                her teammates and others around her. Having
+                                worked closely with her on a couple of design
+                                tasks, I can confidently say she has a strong
+                                sense of user-centered design and a genuine
+                                passion for creating meaningful experiences.
+                            </p>
+                            <p
+                                class="text-uppercase fw-semibold mb-0"
+                                style="
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    letter-spacing: 2px;
+                                "
+                            >
+                                Shreelakshmi - UI UX Designer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+
+        <footer
+            class="container my-5 border border-secondary rounded-5 shadow-sm"
+            style="max-width: 80%"
+        >
+            <div class="container p-5">
+                <!-- Top Section: Text + Logo -->
+                <div class="row align-items-center my-5">
+                    <!-- Text Column -->
+                    <div class="col-12 col-lg-6">
+                        <h3 class="azeret-mono my-2" style="font-weight: 500">
+                            Let's connect
+                        </h3>
+                        <p
+                            class="inter my-2"
+                            style="font-weight: 400; font-size: 16px"
+                        >
+                            Open to new projects, collaborations, and
+                            conversations.
+                        </p>
+                        <div class="mt-1">
+                            <a href="#" class="btn btn-custom-pill m-2">
+                                Case Studies
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Image Column -->
+                    <div
+                        class="col-12 col-lg-6 text-center text-lg-end mt-4 mt-lg-0"
+                    >
+                        <img
+                            src="img/logo.png"
+                            class="img-fluid"
+                            style="max-width: 250px; width: 100%"
+                            alt="Logo"
+                        />
+                    </div>
+                </div>
+
+                <!-- Bottom Section: 3 Columns -->
+                <div class="row text-center text-md-start my-5">
+                    <div class="col-12 col-md-3 mb-md-0">
+                        <div class="container" style="max-width: 260px">
+                            <!-- Heading -->
+                            <h5
+                                class="fw-semibold"
+                                style="font-size: 15px; letter-spacing: 0.19px"
+                            >
+                                Navigation
+                            </h5>
+
+                            <!-- Navigation Links -->
+                            <nav class="nav flex-column">
+                                <a
+                                    href="#"
+                                    class="nav-link px-0 text-decoration-underline"
+                                    style="
+                                        font-size: 14px;
+                                        letter-spacing: 0.2px;
+                                        color: #2d2b2a;
+                                    "
+                                >
+                                    Home
+                                </a>
+                                <a
+                                    href="#"
+                                    class="nav-link px-0"
+                                    style="
+                                        font-size: 14px;
+                                        letter-spacing: 0.2px;
+                                        color: #2d2b2a;
+                                    "
+                                >
+                                    About
+                                </a>
+                                <a
+                                    href="#"
+                                    class="nav-link px-0"
+                                    style="
+                                        font-size: 14px;
+                                        letter-spacing: 0.2px;
+                                        color: #2d2b2a;
+                                    "
+                                >
+                                    Resume
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-md-0">
+                        <div class="container" style="max-width: 260px">
+                            <!-- Heading -->
+                            <h5
+                                class="fw-semibold"
+                                style="font-size: 15px; letter-spacing: 0.19px"
+                            >
+                                Case Studies
+                            </h5>
+
+                            <!-- Navigation Links -->
+                            <nav class="nav flex-column">
+                                <a
+                                    href="case-study/case-study-1.html"
+                                    class="nav-link px-0"
+                                    style="
+                                        font-size: 14px;
+                                        letter-spacing: 0.2px;
+                                        color: #2d2b2a;
+                                    "
+                                >
+                                    Navigation & IA Redesign
+                                </a>
+                                <a
+                                    href="#"
+                                    class="nav-link px-0"
+                                    style="
+                                        font-size: 14px;
+                                        letter-spacing: 0.2px;
+                                        color: #2d2b2a;
+                                    "
+                                >
+                                    Search Member Page Redesign
+                                </a>
+                                <a
+                                    href="#"
+                                    class="nav-link px-0"
+                                    style="
+                                        font-size: 14px;
+                                        letter-spacing: 0.2px;
+                                        color: #2d2b2a;
+                                    "
+                                >
+                                    Micro Interaction In Chrome
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="container" style="max-width: 260px">
+                            <!-- Heading -->
+                            <h5
+                                class="fw-semibold"
+                                style="font-size: 15px; letter-spacing: 0.19px"
+                            >
+                                Elsewhere
+                            </h5>
+
+                            <!-- Navigation Links -->
+                            <nav class="nav flex-column">
+                                <a
+                                    href="https://www.linkedin.com/in/your-profile"
+                                    target="_blank"
+                                    class="d-flex align-items-center rounded-4 px-3 py-2 text-decoration-none my-1"
+                                    style="
+                                        height: 84px;
+                                        max-width: 100%;
+                                        background: linear-gradient(
+                                            106deg,
+                                            rgba(255, 173, 173, 0.15) 0%,
+                                            rgba(202, 187, 233, 0.1) 100%
+                                        );
+                                        color: #302e2c;
+                                    "
+                                >
+                                    <!-- Icon Box -->
+                                    <div
+                                        class="d-flex justify-content-center align-items-center rounded-3 me-3"
+                                        style="
+                                            width: 52px;
+                                            height: 52px;
+                                            background: linear-gradient(
+                                                152deg,
+                                                rgba(202, 187, 233, 0.4) 0%,
+                                                rgba(255, 173, 173, 0.4) 100%
+                                            );
+                                        "
+                                    >
+                                        <i class="bi bi-linkedin"></i>
+                                    </div>
+
+                                    <!-- Label and Arrow -->
+                                    <div
+                                        class="d-flex align-items-center justify-content-between flex-grow-1"
+                                    >
+                                        <span
+                                            class="fw-medium"
+                                            style="
+                                                font-size: 16.3px;
+                                                letter-spacing: 0.3px;
+                                            "
+                                        >
+                                            LinkedIn
+                                        </span>
+
+                                        <!-- Optional Black Box Arrow -->
+                                        <i
+                                            class="bi bi-arrow-up-right ms-auto fs-5"
+                                        ></i>
+                                    </div>
+                                </a>
+
+                                <a
+                                    href="https://www.linkedin.com/in/your-profile"
+                                    target="_blank"
+                                    class="d-flex align-items-center rounded-4 px-3 py-2 text-decoration-none"
+                                    style="
+                                        height: 84px;
+                                        max-width: 100%;
+                                        background: linear-gradient(
+                                            106deg,
+                                            rgba(179, 222, 193, 0.15) 0%,
+                                            rgba(202, 187, 233, 0.15) 100%
+                                        );
+                                        color: #302e2c;
+                                    "
+                                >
+                                    <!-- Icon Box -->
+                                    <div
+                                        class="d-flex justify-content-center align-items-center rounded-3 me-3"
+                                        style="
+                                            width: 52px;
+                                            height: 52px;
+                                            background: linear-gradient(
+                                                152deg,
+                                                rgba(202, 187, 233, 0.4) 0%,
+                                                rgba(179, 222, 193, 0.4) 100%
+                                            );
+                                        "
+                                    >
+                                        <i class="bi bi-behance"></i>
+                                    </div>
+
+                                    <!-- Label and Arrow -->
+                                    <div
+                                        class="d-flex align-items-center justify-content-between flex-grow-1"
+                                    >
+                                        <span
+                                            class="fw-medium"
+                                            style="
+                                                font-size: 16.3px;
+                                                letter-spacing: 0.3px;
+                                            "
+                                        >
+                                            Behance
+                                        </span>
+
+                                        <!-- Optional Black Box Arrow -->
+                                        <i
+                                            class="bi bi-arrow-up-right ms-auto fs-5"
+                                        ></i>
+                                    </div>
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+`
