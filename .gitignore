@@ -1,0 +1,10 @@
+# Editor / OS
+.zed/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Scratch
+*.log
+*.tmp

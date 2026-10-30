@@ -1,13 +1,642 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Product design case study for the AngelPBX UCaaS and CCaaS ecosystem."><title>AngelPBX Ecosystem — Case Study</title><link rel="icon" href="/assets/images/logo.png"><link rel="stylesheet" href="/assets/styles.css"></head><body><header class="site-header"><div class="container navbar"><a class="identity" href="/"><img src="/assets/images/logo.png" alt="Shrinkhla Shrivastava logo"><span>Shrinkhla Shrivastava</span></a><nav class="nav"><a href="/#work">Work</a><a href="/about/">About</a><a href="/assets/resume.pdf" target="_blank" rel="noopener">Resume ↗</a></nav></div></header>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AngelPBX Smart IVR — Case Study</title>
+<meta name="description" content="Product design case study: auditing, exploring, scoping and shipping the Smart IVR call-flow builder for AngelPBX.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Serif+Display&display=swap">
+<link rel="icon" href="/assets/images/brand/logo.png">
+<link rel="stylesheet" href="/assets/css/case-angelpbx.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="identity" href="/"><img src="/assets/images/brand/logo.png" alt="Shrinkhla Shrivastava logo" width="54" height="30"><span>Shrinkhla Shrivastava</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#work">Work</a>
+      <a href="/about/">About</a>
+      <a href="/assets/resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-<section class="case-hero"><div class="container"><div class="eyebrow">Enterprise communication · UCaaS + CCaaS</div><h1 class="case-title">AngelPBX Ecosystem</h1><p class="lede">Evolving a growing communication ecosystem across product architecture, 30+ modules, AI-assisted operations and a shared design language.</p><div class="case-meta"><div class="meta-card"><small>Engagement</small><b>~1 year</b></div><div class="meta-card"><small>Team context</small><b>Cross-functional design + product + development</b></div><div class="meta-card"><small>My focus</small><b>Platform UX, IA, design system, audits, module design & QA</b></div><div class="meta-card"><small>Platforms</small><b>AngelPBX · AngelMeet · AngelGo · AngelECHO</b></div></div><div class="case-hero-visual"><img src="/assets/images/angelpbx-ai-cdr.png" alt="AngelPBX ecosystem and AI CDR visual"></div></div></section>
-<section class="section"><div class="container case-intro"><div><div class="eyebrow">The brief</div><h2 class="section-title">Scale the product without scaling the confusion.</h2></div><div><p class="lede">AngelPBX was growing beyond a single telephony product into a broader communication ecosystem. Existing interfaces had been built incrementally, and the experience needed stronger navigation, nomenclature, consistency and operational clarity as new modules and AI capabilities were added.</p><p class="copy">The engagement was collaborative across stakeholders, design and development. My contribution centered on product audits, information architecture, major parts of the core platform, design-system evolution, AngelMeet journey gaps and ongoing implementation QA.</p><div class="scope-grid"><div class="scope-stat"><strong>30+</strong><span>modules designed or improved</span></div><div class="scope-stat"><strong>4</strong><span>products directly worked on</span></div><div class="scope-stat"><strong>1</strong><span>shared design foundation</span></div><div class="scope-stat"><strong>AI</strong><span>embedded in operational workflows</span></div></div></div></div></section>
-<section class="section soft"><div class="container story"><div class="story-copy"><div class="eyebrow">01 · Product architecture</div><h2 class="section-title">First, make the system easier to understand.</h2><p class="copy">The platform side navigation and nomenclature were audited to identify confusing grouping, overlapping labels and gaps between related tasks. Recommendations reorganised modules around clearer operational categories and a structure that could grow with the ecosystem.</p><ul class="clean-list"><li>Navigation and nomenclature audit</li><li>Module grouping and hierarchy</li><li>Cross-product consistency</li><li>Scalable patterns for new functionality</li></ul></div><div class="story-visual has-image"><img src="/assets/images/pbx-2.png" alt="Existing navigation, audit notes, revised IA and implemented navigation"></div></div></section>
-<section class="section"><div class="container story reverse"><div class="story-copy"><div class="eyebrow">02 · Shared design system</div><h2 class="section-title">Create one product language across a growing ecosystem.</h2><p class="copy">A shared component and interaction foundation helped prevent every new module from becoming its own design problem. The system covered recurring controls, data-heavy views, navigation patterns, panels, tables and common states used across the ecosystem.</p><ul class="clean-list"><li>Typography and colour foundations</li><li>Buttons, inputs and form patterns</li><li>Tables, panels and dense data states</li><li>Navigation and reusable interaction behaviour</li></ul></div><div class="story-visual has-image"><img src="/assets/images/design-system.png" alt="Shared design system components across product examples"></div></div></section>
-<section class="section soft"><div class="container"><div class="eyebrow">03 · Breadth of delivery</div><h2 class="section-title">30+ modules, organised by the jobs they support.</h2><div class="module-groups"><div class="module-group"><h3>Telephony & routing</h3><p>Numbers · Smart IVR · queues · call routing · CDR · call handling</p></div><div class="module-group"><h3>Operations & supervision</h3><p>Active calls · live monitoring · agent status · supervisor controls</p></div><div class="module-group"><h3>Administration & trust</h3><p>Users · roles · permissions · audit logs · sessions · security · IP management</p></div><div class="module-group"><h3>Intelligence</h3><p>Semantic CDR · call analytics · agent performance · report intelligence</p></div><div class="module-group"><h3>Business operations</h3><p>Billing · usage analytics · CRM integrations · settings · consumption insights</p></div><div class="module-group"><h3>Connected products</h3><p>AngelMeet · AngelGo · AngelECHO touchpoints and ecosystem continuity</p></div></div></div></section>
-<section class="section"><div class="container story"><div class="story-copy"><div class="eyebrow">04 · AI call intelligence</div><h2 class="section-title">Move from call records to actual conversation intelligence.</h2><p class="copy">Traditional call records answer when a call happened. The redesigned semantic CDR experience was shaped to help managers understand what happened — bringing recording, transcript, sentiment, scoring, key insights, training notes and summary into one review surface.</p><ul class="clean-list"><li>Natural-language semantic search</li><li>Transcript + recording in context</li><li>Sentiment, scoring and key insights</li><li>Training notes and summaries</li><li>AI bot for questions about calls</li></ul></div><div class="story-visual has-image"><img src="/assets/images/semantic-cdr.png" alt="Annotated semantic CDR interface"></div></div></section>
-<section class="section soft"><div class="container story reverse"><div class="story-copy"><div class="eyebrow">05 · AngelMeet</div><h2 class="section-title">The meeting journey is bigger than the live call.</h2><p class="copy">An audit of Creator and Participant journeys surfaced gaps before, during and after meetings. The design solutions connected scheduling and invites with the live meeting experience, then extended into recording, transcript, AI notes, summaries and action items.</p><ul class="clean-list"><li>Pre-meet: create · schedule · invite · pre-join</li><li>Live: collaboration · permissions · whiteboards · AI notes</li><li>Post-meet: recording · transcript · summary · actions</li></ul></div><div class="story-visual has-image"><img src="/assets/images/angelmeet.png" alt="AngelMeet creator and participant journey audit"></div></div></section>
-<section class="section"><div class="container story"><div class="story-copy"><div class="eyebrow">06 · AngelGo</div><h2 class="section-title">Keep agent communication in one workspace.</h2><p class="copy">AngelGo brought calls, WhatsApp, email, internal messaging, click-to-call leads and multiple assigned numbers into a single agent-facing experience. The redesign also considered mobile continuity, AI-assisted responses and supervisor intervention.</p><ul class="clean-list"><li>Desktop + mobile omnichannel workflows</li><li>AI suggested replies, summaries and next actions</li><li>Monitor · Whisper · Barge · Intercept</li><li>Mobile architecture designed with wider ecosystem support in mind</li></ul></div><div class="story-visual has-image"><img src="/assets/images/angelgo.png" alt="AngelGo desktop, mobile and supervisor workspace"></div></div></section>
-<section class="section soft"><div class="container story reverse"><div class="story-copy"><div class="eyebrow">07 · From design to implementation</div><h2 class="section-title">The design loop continued after handoff.</h2><p class="copy">Developer questions, platform testing and repeated UX audits were part of the delivery process. Built screens were reviewed against intended behaviour, missing states and interaction details, then refined with the development team.</p><ul class="clean-list"><li>Developer clarification and handoff support</li><li>Functional testing and UX review</li><li>Design QA on implemented screens</li><li>Iterative fixes after build</li></ul></div><div class="story-visual has-image"><img src="/assets/images/design-qa.png" alt="Figma design, build, QA issue and refined implementation"></div></div></section>
-<section class="section"><div class="container outcome-box"><div class="two"><div><div class="eyebrow">What this project demonstrates</div><h2 class="section-title">Breadth without losing the system.</h2></div><ul class="clean-list"><li>Design contribution across 30+ enterprise modules</li><li>Information architecture and nomenclature improvements</li><li>A shared design foundation across connected products</li><li>AI introduced inside real operational workflows</li><li>Design ownership continued through implementation and QA</li></ul></div></div></section>
-</main><footer class="footer-wrap"><div class="container"><div class="footer-panel"><div><div class="eyebrow">Let’s connect</div><h2 class="footer-title">Good products need both<br><span class="serif accent-text">clarity and care.</span></h2><p class="copy">Open to product design opportunities, thoughtful collaborations and conversations about complex digital products.</p><div class="actions"><a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a><a class="btn" href="/assets/resume.pdf" target="_blank" rel="noopener">Resume ↗</a></div></div><div class="footer-right"><img src="/assets/images/logo.png" alt="Personal logo"><div class="footer-links"><a href="/">Home</a><a href="/#work">Work</a><a href="/about/">About</a><a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></div><div class="footer-bottom"><span>© <span data-year></span> Shrinkhla Shrivastava</span><span>Designed with curiosity. Built with intention.</span></div></div></footer><script src="/assets/site.js"></script></body></html>
+
+<!-- HERO -->
+<section class="case-hero">
+  <div class="container">
+    <div class="eyebrow">AngelPBX · Smart IVR · Enterprise telephony</div>
+    <h1 class="case-title">Smart IVR: call flows that <em>flag their own problems</em></h1>
+    <p class="lede">Businesses on AngelPBX use Smart IVR to decide what callers hear and where each call goes. I audited the existing builder, explored a full redesign, scoped it with engineering, and handed off a Core IVR where every step shows whether it will work before a caller finds out.</p>
+    <div class="case-meta">
+      <div class="meta-card"><small>Role</small><b>Product Designer</b><span>Audit, UX/UI, handoff, build review</span></div>
+      <div class="meta-card"><small>Company · Client</small><b>Dot and Beyond</b><span>Design agency, for AngelPBX</span></div>
+      <div class="meta-card"><small>Timeline</small><b>7–10 days to handoff</b><span>Then daily review through the build</span></div>
+      <div class="meta-card"><small>Team</small><b>Design manager, senior designer, PM, developers, founders</b></div>
+    </div>
+    <figure class="hero-visual">
+      <div class="frame"><div class="bar"><i></i><i></i><i></i><span>Core IVR · Flow builder</span></div>
+        <img class="zoom" src="/assets/images/angelpbx/core-canvas.jpg" width="2400" height="1291" alt="Core IVR flow builder: node palette on the left, a flow with Welcome Message, Main Menu and three routed destinations, each node showing a green healthy check.">
+      </div>
+      <figcaption><b>The handed-off Core IVR builder.</b> A palette of nine calling nodes, a visual flow, and a health check on every node.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ENGAGEMENT -->
+<section class="section soft">
+  <div class="container">
+    <div class="head">
+      <div>
+        <div class="eyebrow">The wider engagement</div>
+        <h2 class="section-title">One year on AngelPBX, one module in depth</h2>
+      </div>
+      <div class="copy">
+        <p>AngelPBX is a business communications platform covering telephony, contact centre operations and AI call analytics. I worked on it for about a year as a product designer at Dot and Beyond, alongside a design manager, a senior designer, a PM, developers and the founders.</p>
+      </div>
+    </div>
+    <div class="scope-grid">
+      <div class="scope-stat"><strong>30+</strong><span>Platform modules designed or improved, from numbers and routing to billing and audit logs</span></div>
+      <div class="scope-stat"><strong>4</strong><span>Connected products: AngelPBX, AngelECHO (end to end), AngelMeet and AngelGo</span></div>
+      <div class="scope-stat"><strong>1</strong><span>Shared design system I contributed to with the design team</span></div>
+      <div class="scope-stat"><strong>Daily</strong><span>Design QA on the live platform, plus stakeholder decks and module write-ups with technical writers</span></div>
+    </div>
+    <div class="other-work">
+      <div class="ow"><div class="thumb"><img class="zoom" src="/assets/images/angelpbx/platform/pbx-2.jpg" loading="lazy" width="1040" height="1794" alt="Navigation audit and revised information architecture"></div><div><b>Navigation and IA</b><p>Audited the side navigation and naming, then regrouped modules around operational jobs.</p></div></div>
+      <div class="ow"><div class="thumb"><img class="zoom" src="/assets/images/angelpbx/platform/design-system.jpg" loading="lazy" width="1138" height="640" alt="Shared design system components"></div><div><b>Shared design system</b><p>Tables, panels, forms and dense data states reused across modules.</p></div></div>
+      <div class="ow"><div class="thumb"><img class="zoom" src="/assets/images/angelpbx/platform/angelecho.jpg" loading="lazy" width="1400" height="788" alt="AngelECHO agent editor"></div><div><b>AngelECHO</b><p>Designed end to end: AI-agent creation, testing and deployment across customer, vendor and admin experiences.</p></div></div>
+      <div class="ow"><div class="thumb"><img class="zoom" src="/assets/images/angelpbx/platform/angelmeet.jpg" loading="lazy" width="1138" height="640" alt="AngelMeet journey audit"></div><div><b>AngelMeet</b><p>Audited creator and participant journeys before, during and after meetings.</p></div></div>
+      <div class="ow"><div class="thumb"><img class="zoom" src="/assets/images/angelpbx/platform/angelgo.jpg" loading="lazy" width="1138" height="640" alt="AngelGo agent workspace"></div><div><b>AngelGo</b><p>Calls, WhatsApp, email and messaging in one agent workspace, with supervisor controls.</p></div></div>
+      <div class="ow"><div class="thumb"><img class="zoom" src="/assets/images/angelpbx/platform/design-qa.jpg" loading="lazy" width="1138" height="640" alt="Design QA comparing design and build"></div><div><b>Design QA</b><p>Reviewed built screens against intended behaviour and logged fixes with developers.</p></div></div>
+    </div>
+    <div class="pickline">
+      <p><span class="serif">Why Smart IVR?</span><br>It is the one module where I can show the whole loop: audit, market research, a broad concept, a hard scope decision with engineering, handoff, a redesign after handoff, and testing with live agents.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IVR IS -->
+<section class="section">
+  <div class="container">
+    <div class="story">
+      <div class="story-copy">
+        <div class="eyebrow">The product</div>
+        <h2 class="section-title">One person builds the menu. Every caller lives with it.</h2>
+        <div class="copy">
+          <p>IVR is the phone menu a caller hears: “Press 1 for Sales.” In AngelPBX, an admin builds that menu as a flow of steps: a greeting, a menu, and a destination for each key press.</p>
+          <p>Mistakes here are quiet. A greeting with no audio plays silence. A menu option with no destination is a dead end. The admin rarely hears it; the caller always does.</p>
+        </div>
+      </div>
+      <div class="route">
+        <div class="route-label">Illustrative call route</div>
+        <svg class="route-svg" viewBox="0 0 560 300" role="img" aria-label="A call starts at a greeting, goes to a menu, and branches: press 1 to the sales extension, press 2 to the support queue, press 3 to billing voicemail.">
+          <g font-family="DM Sans, system-ui, sans-serif" font-size="13">
+            <rect x="8" y="122" width="120" height="56" rx="12" fill="#f0edf8" stroke="#cfc6ec"/>
+            <text x="68" y="146" text-anchor="middle" fill="#161515" font-weight="600">Greeting</text>
+            <text x="68" y="164" text-anchor="middle" fill="#6f6b68" font-size="11.5">“Welcome to Acme”</text>
+            <path d="M128 150 H182" stroke="#161515" stroke-width="1.5" fill="none" marker-end="url(#ah)"/>
+            <rect x="186" y="110" width="130" height="80" rx="12" fill="#f7e8e9" stroke="#ecc3c7"/>
+            <text x="251" y="140" text-anchor="middle" fill="#161515" font-weight="600">Menu</text>
+            <text x="251" y="158" text-anchor="middle" fill="#6f6b68" font-size="11.5">Press 1, 2 or 3</text>
+            <text x="251" y="174" text-anchor="middle" fill="#6f6b68" font-size="11.5">3 tries, 5 s timeout</text>
+            <path d="M316 135 C350 135 350 50 384 50" stroke="#161515" stroke-width="1.5" fill="none" marker-end="url(#ah)"/>
+            <path d="M316 150 H382" stroke="#161515" stroke-width="1.5" fill="none" marker-end="url(#ah)"/>
+            <path d="M316 165 C350 165 350 250 384 250" stroke="#161515" stroke-width="1.5" fill="none" marker-end="url(#ah)"/>
+            <text x="340" y="80" fill="#6f6b68" font-size="11.5">1</text>
+            <text x="346" y="144" fill="#6f6b68" font-size="11.5">2</text>
+            <text x="340" y="228" fill="#6f6b68" font-size="11.5">3</text>
+            <rect x="388" y="24" width="164" height="52" rx="12" fill="#eef6ef" stroke="#bcdcc4"/>
+            <text x="470" y="47" text-anchor="middle" fill="#161515" font-weight="600">Extension</text>
+            <text x="470" y="64" text-anchor="middle" fill="#6f6b68" font-size="11.5">Sales desk · 201</text>
+            <rect x="388" y="124" width="164" height="52" rx="12" fill="#eef6ef" stroke="#bcdcc4"/>
+            <text x="470" y="147" text-anchor="middle" fill="#161515" font-weight="600">Call queue</text>
+            <text x="470" y="164" text-anchor="middle" fill="#6f6b68" font-size="11.5">Support team</text>
+            <rect x="388" y="224" width="164" height="52" rx="12" fill="#fbe7e8" stroke="#ecbcbf" stroke-dasharray="4 3"/>
+            <text x="470" y="247" text-anchor="middle" fill="#c0353a" font-weight="600">No destination</text>
+            <text x="470" y="264" text-anchor="middle" fill="#6f6b68" font-size="11.5">Caller hits a dead end</text>
+          </g>
+          <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#161515"/></marker></defs>
+        </svg>
+      </div>
+    </div>
+    <div class="who">
+      <div class="who-card main"><small>Builds the flow</small><b>Admin and IT</b><p>Creates the menu, maps “Press 1” to the sales queue, then checks the routing works.</p></div>
+      <div class="who-card"><small>Watches it run</small><b>Operations leads</b><p>Spot long waits and add backup agents. Compliance teams review prompts for required disclaimers.</p></div>
+      <div class="who-card"><small>Lives with the result</small><b>Callers</b><p>Self-serve, like order status or bill payment, or reach the right department first time.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIT -->
+<section class="section soft">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">01 · Audit</div>
+        <h2 class="section-title">I started with the builder already in use</h2>
+      </div>
+      <div class="copy">
+        <p>After a walkthrough with a stakeholder and a developer, I worked through the module myself and wrote down everything that slowed me down or confused me, as it happened. Then I turned those raw notes into a list the team could act on.</p>
+      </div>
+    </div>
+
+    <div class="funnel" role="list">
+      <div class="fstep" role="listitem"><div class="n">18</div><div class="fbar" style="width:64%"></div><b>Walkthrough notes</b><p>First-person observations, like “I can’t test the flow I made.”</p></div>
+      <div class="fstep" role="listitem"><div class="n">28</div><div class="fbar" style="width:100%"></div><b>Structured issues</b><p>Each note rewritten as a problem with a severity rating.</p></div>
+      <div class="fstep" role="listitem"><div class="n">15</div><div class="fbar" style="width:54%"></div><b>Consolidated issues</b><p>Overlaps merged so each issue named one root cause.</p></div>
+      <div class="fstep" role="listitem"><div class="n">+6</div><div class="fbar" style="width:22%;background:var(--accent)"></div><b>Market gaps</b><p>From benchmarking: dynamic menus, call distribution, load and A/B testing, live KPIs, SLA alerts.</p></div>
+    </div>
+
+    <div class="two">
+      <div class="stack">
+        <h3 class="sub-title">Merging is where the audit got useful</h3>
+        <div class="copy">
+          <p>Twenty-eight issues is a list nobody prioritises. Many of them were the same problem seen from different screens. I merged overlaps and kept a log of every merge, so nothing was lost and every consolidated issue could be traced back to what I saw.</p>
+          <p>I rated each one Extreme, Major or Minor. These were my working ratings for prioritising, not measured user impact.</p>
+        </div>
+        <div class="sev"><span class="x">Extreme · changes go live with no test</span><span class="m">Major · wording causes setup errors</span><span class="s">Minor · no cross-IVR browsing</span></div>
+      </div>
+      <div class="merge">
+        <ul>
+          <li>No copy-paste or subflow reuse</li>
+          <li>No “save as template”</li>
+          <li>No templates or domain starter kits</li>
+          <li>No cross-IVR reuse</li>
+        </ul>
+        <div class="arrow" aria-hidden="true">→</div>
+        <div class="out">No reuse or template support<small>Issue #4 · Major · users rebuild the same logic by hand</small></div>
+      </div>
+    </div>
+
+    <figure style="max-width:820px">
+      <img class="zoom" src="/assets/images/angelpbx/audit-findings.jpg" loading="lazy" width="1400" height="1207" alt="The consolidated list of 15 audit issues with severity ratings" style="border-radius:var(--r-lg);box-shadow:var(--shadow)">
+      <figcaption><b>The consolidated audit.</b> Fifteen issues, presented to the team alongside the original screens and use cases.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- FINDINGS -->
+<section class="section">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">02 · What I found</div>
+        <h2 class="section-title">Three problems shaped everything that followed</h2>
+      </div>
+      <div class="copy"><p>Most of the fifteen issues traced back to three things: setup was split across two places, the canvas controls said the wrong thing, and nothing told you when a flow was broken.</p></div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head"><span class="num">1</span><h3 class="sub-title">Setting up one IVR happened in two places</h3></div>
+      <div class="journey" aria-label="Old setup journey">
+        <div><small>Step 1</small>Fill in a settings form</div>
+        <div><small>Step 2</small>Save and return to the list</div>
+        <div><small>Step 3</small>Find the right gear icon</div>
+        <div class="hot"><small>Step 4</small>Open a separate canvas to build the flow</div>
+      </div>
+      <div class="evidence">
+        <div class="frame"><div class="bar"><i></i><i></i><i></i><span>Before · IVR Edit form</span></div>
+          <div class="pinwrap">
+            <img class="zoom" src="/assets/images/angelpbx/old-edit.jpg" width="1610" height="690" alt="The old IVR Edit form with fields for greet, invalid and exit sound files, confirm macro, timeouts in milliseconds and digit limits.">
+            <span class="pin" style="left:42.9%;top:33.9%">1</span>
+            <span class="pin" style="left:49.4%;top:45.7%">2</span>
+            <span class="pin" style="left:91.3%;top:59.7%">3</span>
+            <span class="pin" style="left:81.7%;top:87.8%">4</span>
+          </div>
+        </div>
+        <ul class="pinlist">
+          <li><span>1</span><div><b>Audio picked before the flow exists.</b> Greet, invalid and exit sounds are chosen here as raw filenames, away from the steps that play them.</div></li>
+          <li><span>2</span><div><b>“Confirm Macro”</b> with no explanation of what it confirms or when.</div></li>
+          <li><span>3</span><div><b>Timeouts in milliseconds.</b> “10000” means ten seconds, but nothing says so at a glance.</div></li>
+          <li><span>4</span><div><b>Max Digit stops at 9,</b> so callers can’t enter a ten-digit phone number.</div></li>
+        </ul>
+        <figure>
+          <div class="frame"><div class="bar"><i></i><i></i><i></i><span>Before · IVR Master list</span></div>
+            <div class="pinwrap">
+              <img class="zoom" src="/assets/images/angelpbx/old-listing.jpg" width="1610" height="270" alt="The old IVR Master table showing confirm attempts, timeout 10000, max failures and four icon-only action columns.">
+              <span class="pin" style="left:40.6%;top:78.9%">5</span>
+              <span class="pin" style="left:68.1%;top:78.9%">6</span>
+            </div>
+          </div>
+          <figcaption><b>5</b> Raw settings shown as table columns. <b>6</b> “Options” and “Call Flow” use the same gear icon, and the flow builder hides behind one of them.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head"><span class="num">2</span><h3 class="sub-title">The canvas controls said the wrong thing, and nothing said a flow was broken</h3></div>
+      <div class="side-by-side">
+        <div class="frame dark"><div class="bar"><i></i><i></i><i></i><span>Before · Call flow canvas</span></div>
+          <div class="pinwrap">
+            <img class="zoom" src="/assets/images/angelpbx/old-canvas.jpg" width="1710" height="970" alt="The old dark call-flow canvas with a Press Digits node routed to extension, IVR and ring group nodes, red X marks on the connectors and a Select a Node panel.">
+            <span class="pin" style="left:48.8%;top:40.2%">1</span>
+            <span class="pin" style="left:69.5%;top:32%">2</span>
+            <span class="pin" style="left:71%;top:62.1%">3</span>
+            <span class="pin" style="left:14.5%;top:41.2%">4</span>
+          </div>
+        </div>
+        <figure>
+          <div class="frame dark"><img class="zoom" src="/assets/images/angelpbx/old-modal.jpg" width="331" height="650" alt="Close-up of the old Select a Node panel listing Extension, Ring Group, Call Center, IVR, Hangup, Back to IVR and PSTN."></div>
+          <figcaption>The node picker: a fixed box with one-line, repeated descriptions (“option for the user”).</figcaption>
+        </figure>
+      </div>
+      <ul class="pinlist">
+        <li><span>1</span><div><b>A red X on each connection</b> reads as “broken link”. It actually deletes the connection.</div></li>
+        <li><span>2</span><div><b>The pencil icon</b> suggests editing the step. It only renames the label.</div></li>
+        <li><span>3</span><div><b>No status on nodes.</b> An extension node still showing “Select Extension” looks the same as a finished one, and saves without complaint.</div></li>
+        <li><span>4</span><div><b>“Update” is the only safety net.</b> No undo or redo, and no way to check the flow before it goes live.</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- BENCHMARK -->
+<section class="section lav">
+  <div class="container">
+    <div class="head">
+      <div>
+        <div class="eyebrow">03 · Benchmark</div>
+        <h2 class="section-title">Then I studied how the market solves the same job</h2>
+      </div>
+      <div class="copy"><p>I went through Vonage AI Studio and RingCentral’s RingCX IVR builder, using their product screens and documentation. I wasn’t looking for features to copy. I wanted the patterns both had settled on, because those are what admins would expect.</p></div>
+    </div>
+    <div class="patterns">
+      <div class="pattern">
+        <h3>Configure a step where you build it</h3>
+        <p>Both builders use a node palette beside the canvas. Selecting a node opens its settings in a panel, so you never leave the flow.</p>
+        <div class="then"><b>AngelPBX then:</b> settings in a separate form, a cramped pop-up picker.</div>
+        <div class="src">Vonage AI Studio: nodes dragged onto the canvas, settings open on the right. RingCX: palette of nodes, drag and connect.</div>
+      </div>
+      <div class="pattern">
+        <h3>Failure handling lives inside the input step</h3>
+        <p>Retries, “no input” and “invalid input” paths belong to the step that asks the caller something, not to a global settings page.</p>
+        <div class="then"><b>AngelPBX then:</b> “Confirm Attempts” and “Max Failure” as abstract fields, far from the menu they affect.</div>
+        <div class="src">Vonage Collect Input: retries plus “No Input” and “Missed” paths. RingCX: Get Input node.</div>
+      </div>
+      <div class="pattern">
+        <h3>Check the flow before callers do</h3>
+        <p>Both treat testing and publishing as first-class actions, and RingCX makes business hours a node in the flow.</p>
+        <div class="then"><b>AngelPBX then:</b> every change went live on save, with no time-based routing.</div>
+        <div class="src">Vonage: Tester, editor mode and publish. RingCX: testing call routing, Date Time node.</div>
+      </div>
+    </div>
+    <p class="note">Competitor interfaces are described here rather than reproduced.</p>
+  </div>
+</section>
+
+<!-- MODERN IVR -->
+<section class="section">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">04 · Exploration <span class="tag explore" style="margin-left:8px">Concept</span></div>
+        <h2 class="section-title">First, I designed for where the product should go</h2>
+      </div>
+      <div class="copy">
+        <p>Modern IVR answered almost every audit finding at once: a 21-node palette across voice, messaging and logic, a flow switcher, draft and publish states, undo, templates, version history and a call simulator. My design manager and a senior designer reviewed the direction with me.</p>
+      </div>
+    </div>
+    <figure>
+      <div class="frame"><div class="bar"><i></i><i></i><i></i><span>Modern IVR · Flow builder (exploration)</span></div>
+        <img class="zoom" src="/assets/images/angelpbx/modern-canvas.jpg" loading="lazy" width="2000" height="1321" alt="Modern IVR builder with a toolbar showing unpublished and unsaved badges, undo, redo, Test Flow, Save and Publish Changes, and a flow including a business hours check and an AI support assistant node with an error icon.">
+      </div>
+      <figcaption><b>Modern IVR canvas.</b> Draft and publish badges in the toolbar, a business-hours step in the flow, and a status icon on every node. The AI node shows an error because it isn’t configured yet.</figcaption>
+    </figure>
+    <div class="trio">
+      <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/modern-test.jpg" loading="lazy" width="2000" height="1131" alt="Test Flow panel simulating a call as a chat conversation"></div><figcaption><b>Simulate a call.</b> Walk through the flow as a caller would, digit by digit.</figcaption></figure>
+      <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/modern-version.jpg" loading="lazy" width="2000" height="1077" alt="Version history panel listing versions with authors and change summaries"></div><figcaption><b>Version history.</b> Who changed what, with preview and restore.</figcaption></figure>
+      <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/modern-templates.jpg" loading="lazy" width="2000" height="1131" alt="Choose a Flow Template modal with predefined and custom templates"></div><figcaption><b>Templates.</b> Start from a proven flow instead of rebuilding it.</figcaption></figure>
+    </div>
+    <figure>
+      <img class="zoom" src="/assets/images/angelpbx/modern-voice-panels.jpg" loading="lazy" width="2200" height="1427" alt="Configuration panels for Greeting, Route and Ring Group nodes, each with a health status section" style="border-radius:var(--r-lg);box-shadow:var(--shadow)">
+      <figcaption><b>Every node panel opened with its own health check.</b> This was the first version of the idea that later carried through into Core IVR.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- SCOPE -->
+<section class="section pink">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">05 · Scope</div>
+        <h2 class="section-title">Then engineering sized it, and we phased the work</h2>
+      </div>
+      <div class="copy">
+        <p>In the feasibility review, the development lead sized the full Modern scope as more than the team could build in the first release. We agreed to phase it: Core IVR’s calling workflows first, with the advanced capabilities parked for a later add-on phase.</p>
+        <p>I cut it down twice, first to a slimmer second version, then to the Core IVR that went to development. The question each time was the same: what does an admin need to build a calling flow they can trust?</p>
+      </div>
+    </div>
+    <div class="scope">
+      <div class="scope-col keep">
+        <h3><span class="tag ship">First release</span> Core IVR</h3>
+        <ul>
+          <li>Nine calling nodes with one-line descriptions</li>
+          <li>Settings in a side panel, next to the flow</li>
+          <li>Node health on every step</li>
+          <li>Undo, redo, auto layout and version history</li>
+          <li>Timings in seconds, with valid ranges and helper text</li>
+          <li>Audio upload or text-to-speech, with preview</li>
+        </ul>
+      </div>
+      <div class="scope-col later">
+        <h3><span class="tag">Add-on phase</span> Modern capabilities</h3>
+        <ul>
+          <li>AI assistant and speech-recognition nodes</li>
+          <li>Messaging channels: SMS, WhatsApp, rich cards</li>
+          <li>Logic and integrations: conditions, webhooks, flow jumps</li>
+          <li>Templates and reuse</li>
+          <li>Flow analytics and KPIs</li>
+        </ul>
+      </div>
+    </div>
+    <div class="palettes">
+      <div class="pal">
+        <h4>Modern IVR palette <span>21 nodes · exploration</span></h4>
+        <div class="grp">Voice</div>
+        <div class="chips"><span class="chip">Greeting</span><span class="chip">Menu</span><span class="chip route">Route</span><span class="chip">Ring Group</span><span class="chip">Call Center Queue</span><span class="chip">Voicemail</span><span class="chip">Speak</span><span class="chip">Gather Input</span><span class="chip">Confirm Macro</span><span class="chip">Record Call</span><span class="chip">Hang Up</span></div>
+        <div class="grp">Messaging</div>
+        <div class="chips"><span class="chip">Send Message</span><span class="chip">Quick Reply</span><span class="chip">Button Menu</span><span class="chip">Collect Input</span><span class="chip">Rich Card</span></div>
+        <div class="grp">Common</div>
+        <div class="chips"><span class="chip">AI Assistant</span><span class="chip">Time Condition</span><span class="chip">Conditional</span><span class="chip">Webhook</span><span class="chip">Flow Jump</span></div>
+      </div>
+      <div class="pal">
+        <h4>Core IVR palette <span>9 nodes · handed off</span></h4>
+        <div class="grp">Calling</div>
+        <div class="chips"><span class="chip">Greeting</span><span class="chip">Menu</span><span class="chip">Voicemail</span><span class="chip dest">PSTN</span><span class="chip dest">Extension</span><span class="chip dest">IVR</span><span class="chip">Ring Group</span><span class="chip">Call Queue</span><span class="chip">Hang Up</span></div>
+        <p class="small" style="margin-top:18px">Modern’s single <b>Route</b> node became three explicit destinations in Core: an outside number (PSTN), an internal extension, or another IVR. Admins choose where a call goes straight from the palette instead of inside a dropdown.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CORE IVR -->
+<section class="section">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">06 · Core IVR <span class="tag ship" style="margin-left:8px">Handed off</span></div>
+        <h2 class="section-title">One place to set up, build and configure a flow</h2>
+      </div>
+      <div class="copy"><p>Core IVR keeps the parts of the exploration that fix the audit’s biggest problems, inside a scope the team could build.</p></div>
+    </div>
+
+    <figure>
+      <div class="frame"><div class="bar"><i></i><i></i><i></i><span>Core IVR · IVR Flows</span></div>
+        <img class="zoom" src="/assets/images/angelpbx/core-listing.jpg" loading="lazy" width="2000" height="718" alt="Core IVR Flows list with summary cards and a table of flows with type, activation toggle, author, date, View Flow link and Edit button.">
+      </div>
+      <figcaption><b>The list.</b> Named actions (“View Flow”, “Edit”) and an activation toggle replace four unlabelled icons. Raw settings move out of the table. Data shown is illustrative.</figcaption>
+    </figure>
+
+    <div class="story">
+      <div class="story-copy">
+        <div class="step-n">Set up</div>
+        <h3 class="sub-title">A drawer that explains itself</h3>
+        <div class="copy">
+          <p>Creating an IVR now happens in one drawer over the list. Each field says what it does and what values it accepts.</p>
+          <p><strong>Flow type</strong> explains master and child flows. <strong>Timeouts</strong> are in seconds. <strong>Max digits</strong> goes up to 20, so a phone number fits. The menu audio can be uploaded or typed as text-to-speech, with supported formats shown up front.</p>
+        </div>
+      </div>
+      <figure class="drawer-fig">
+        <div class="frame"><img class="zoom" src="/assets/images/angelpbx/core-create.jpg" loading="lazy" width="1000" height="2313" alt="Create New IVR drawer with flow type, name, description, menu audio upload, and advanced settings in seconds with ranges such as maximum input digits 1 to 20."></div>
+      </figure>
+    </div>
+
+    <div class="stack">
+      <div class="step-n">Build</div>
+      <h3 class="sub-title">A toolbar with a way back</h3>
+      <div class="copy"><p>Undo and redo, zoom, auto layout, version history and publish sit in one toolbar. Version history records who changed what, with a summary of nodes and connections added or removed.</p></div>
+      <figure>
+        <div class="frame"><img class="zoom" src="/assets/images/angelpbx/core-toolbar.jpg" loading="lazy" width="1440" height="150" alt="Annotated Core IVR toolbar: undo, redo, zoom out, zoom in, reset view, View History, Auto Layout and Publish."></div>
+        <figcaption>Handoff annotation for developers, naming each toolbar control.</figcaption>
+      </figure>
+      <figure>
+        <div class="frame"><div class="bar"><i></i><i></i><i></i><span>Core IVR · Version history</span></div>
+          <img class="zoom" src="/assets/images/angelpbx/core-version.jpg" loading="lazy" width="2000" height="1076" alt="Core IVR canvas with the version history panel open on the right, listing versions by author and date with change summaries.">
+        </div>
+      </figure>
+    </div>
+
+    <div class="stack">
+      <div class="step-n">Configure</div>
+      <h3 class="sub-title">Settings open beside the flow, not instead of it</h3>
+      <div class="copy"><p>Selecting a node opens its settings in a panel on the right, so the flow stays visible. For handoff I specified that the panel’s header and footer stay fixed while the middle scrolls, so Save and Exit are always in reach.</p></div>
+      <div class="two">
+        <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/core-config-a.jpg" loading="lazy" width="2000" height="1074" alt="Core IVR canvas with the Greeting configuration panel open at the top of its settings."></div><figcaption>Panel opens at the top: description, label, health status.</figcaption></figure>
+        <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/core-config-b.jpg" loading="lazy" width="2000" height="1074" alt="Same panel scrolled down to audio configuration, with the header and Save button still visible."></div><figcaption>Scrolled to audio: header and footer stay in place.</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="story menu-story">
+      <div class="story-copy">
+        <div class="step-n">Menu node</div>
+        <h3 class="sub-title">Each option shows where it goes</h3>
+        <div class="copy">
+          <p>Menu options are digit and label pairs you can reorder by dragging. Once an option is wired up on the canvas, the panel shows its destination, so an admin can check routing from either side.</p>
+          <p>The panel’s health check names the exact options that still lead nowhere.</p>
+        </div>
+      </div>
+      <figure class="menu-fig"><div class="frame"><img class="zoom" src="/assets/images/angelpbx/core-menu-panel.jpg" loading="lazy" width="748" height="2672" alt="Menu node configuration panel with four digit and label options, drag handles and a connected destination tag."></div></figure>
+    </div>
+
+    <div class="stack">
+      <div class="step-n">Node states</div>
+      <h3 class="sub-title">Actions appear when you need them</h3>
+      <div class="copy"><p>On the canvas, settings and delete appear only when you hover over a node. That replaced the always-visible X and pencil the audit flagged as misleading. Connected nodes show their link clearly, and the board below went to developers as the spec for every state.</p></div>
+      <figure><div class="plate"><img class="zoom" src="/assets/images/angelpbx/node-states.jpg" loading="lazy" width="2200" height="1429" alt="Board of node states: default, hovered with settings and delete icons, and connected."></div><figcaption><b>Node states for handoff:</b> default, hover, connected, and connected while hovered.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- NODE HEALTH -->
+<section class="section green">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">07 · Node health</div>
+        <h2 class="section-title">Show what’s broken before a caller hears it</h2>
+      </div>
+      <div class="copy">
+        <p>The audit’s most dangerous gap was silent failure: invalid steps saved without a word. I designed a health check that runs on every node, explains the problem in plain words, and tells the admin what the caller would experience.</p>
+        <p>The idea started in Modern IVR and was one of the things that made it through the scope cut into Core. I designed the states and wrote the rules for each node type.</p>
+      </div>
+    </div>
+
+    <div class="states">
+      <div class="state ok"><span class="badge"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="8" r="6.5"/><path d="M5 8.2l2 2 4-4.2"/></svg>Healthy</span><p>Configured and connected to the next step.</p></div>
+      <div class="state warn"><span class="badge"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2l6.5 11.5h-13z"/><path d="M8 6.5v3.2M8 11.6v.2"/></svg>Warning</span><p>Works, but something will cause trouble later, like a missing label or an unconnected option.</p></div>
+      <div class="state err"><span class="badge"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="8" r="6.5"/><path d="M8 4.8v4M8 11v.2"/></svg>Error</span><p>The caller will hit a problem: silence, a dead end, or a call that can’t be transferred.</p></div>
+    </div>
+
+    <figure>
+      <div class="plate"><img class="zoom" src="/assets/images/angelpbx/health-states.jpg" loading="lazy" width="2200" height="1587" alt="Node health board showing healthy, error and warning icons, hover tooltips listing issues found, and error taking priority over warning."></div>
+      <figcaption><b>States and priority.</b> The icon sits on the node; hovering lists each issue found. When a node has both a warning and an error, the error wins, so the most urgent problem is never hidden.</figcaption>
+    </figure>
+
+    <div class="stack">
+      <h3 class="sub-title">Rules written for each node type</h3>
+      <div class="copy"><p>A missing label is a warning everywhere. What counts as an error depends on what the node does for the caller.</p></div>
+      <div class="table-scroll">
+        <table class="rules">
+          <thead><tr><th scope="col">Node</th><th scope="col">Warning</th><th scope="col">Error</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Greeting</th><td class="w">No outgoing connection · Missing label</td><td class="e">No audio content (callers hear silence)</td></tr>
+            <tr><th scope="row">Menu</th><td class="w">Some options not connected · Missing label</td><td class="e">No menu options (callers can’t choose)</td></tr>
+            <tr><th scope="row">Extension</th><td class="w">Missing label</td><td class="e">No extension selected</td></tr>
+            <tr><th scope="row">PSTN</th><td class="w">Missing label</td><td class="e">No phone number</td></tr>
+            <tr><th scope="row">IVR</th><td class="w">Missing label</td><td class="e">No target IVR</td></tr>
+            <tr><th scope="row">Ring Group</th><td class="w">Missing label</td><td class="e">No ring group selected</td></tr>
+            <tr><th scope="row">Call Queue</th><td class="w">Missing label</td><td class="e">No queue selected</td></tr>
+            <tr><th scope="row">Voicemail</th><td class="w">Missing label</td><td class="na">None</td></tr>
+            <tr><th scope="row">Hang Up</th><td class="w">Missing label</td><td class="na">None</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rule-imgs">
+        <figure><img class="zoom" src="/assets/images/angelpbx/rules-greeting.jpg" loading="lazy" width="1288" height="1400" alt="Greeting node rule card listing fully configured, no outgoing connection, missing label, no audio content, and missing audio and connection" style="border-radius:var(--r-md);box-shadow:var(--shadow)"><figcaption>Greeting rules, including the combined case where both audio and connection are missing.</figcaption></figure>
+        <figure><img class="zoom" src="/assets/images/angelpbx/rules-menu.jpg" loading="lazy" width="1300" height="1008" alt="Menu node rule card listing fully configured, some options not connected, missing label and no menu options" style="border-radius:var(--r-md);box-shadow:var(--shadow)"><figcaption>Menu rules name the exact options that lead nowhere (“2, 3”).</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIO -->
+<section class="section">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">08 · After handoff</div>
+        <h2 class="section-title">The audio picker, redesigned around a new library</h2>
+      </div>
+      <div class="copy"><p>After handoff, the team added a shared library of ready-made audio for customers. I redesigned how greetings are chosen around it: browse by name, hear it before you pick it, or add your own by upload or text-to-speech.</p></div>
+    </div>
+    <figure>
+      <div class="frame"><div class="bar"><i></i><i></i><i></i><span>Before · sound fields in the old form</span></div>
+        <img class="zoom" src="/assets/images/angelpbx/old-audio.jpg" loading="lazy" width="1490" height="155" alt="Old greet sound and invalid sound dropdowns showing raw file names such as ivr_welcome_options.mp3">
+      </div>
+      <figcaption><b>Before:</b> a dropdown of file names, with no way to hear them.</figcaption>
+    </figure>
+    <div class="audio-after">
+      <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/audio-drawer.jpg" loading="lazy" width="1000" height="1781" alt="Edit IVR drawer with Greet Sound pickers and play buttons"></div><figcaption><b>Pick and play</b> right in the settings drawer.</figcaption></figure>
+      <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/audio-library.jpg" loading="lazy" width="1020" height="1520" alt="Select Audio modal listing eight audio files with durations and play buttons"></div><figcaption><b>Library:</b> search, durations and preview before confirming.</figcaption></figure>
+      <figure><div class="frame"><img class="zoom" src="/assets/images/angelpbx/audio-config.jpg" loading="lazy" width="1023" height="990" alt="Audio Configuration modal with Upload Music and Create Text-To-Speech tabs"></div><figcaption><b>Add your own:</b> upload a file or generate speech from text.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERY -->
+<section class="section soft">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">09 · Delivery</div>
+        <h2 class="section-title">I stayed with it from handoff to live calls</h2>
+      </div>
+      <div class="copy"><p>The design took 7–10 days from audit to handoff. My involvement continued through the build.</p></div>
+    </div>
+    <div class="timeline">
+      <div class="tl"><small>Handoff</small><h3>The whole flow, not loose screens</h3><p>I handed off every screen, node state and panel, with behaviour notes in the file, like the fixed panel header and footer and the named toolbar controls. Then I walked the developers through the complete flow.</p></div>
+      <div class="tl"><small>Build review</small><h3>Daily review of the build</h3><p>I reviewed the developed module and the audio flow every day, alongside QA and the team, and logged the functional and visual issues I found for developers to fix.</p></div>
+      <div class="tl"><small>Live testing</small><h3>Tested with real agents</h3><p>The module was tested in a working call centre run by the company’s founders, with live agents taking real calls through the flows.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- COVERAGE / OUTCOME -->
+<section class="section">
+  <div class="container stack-lg">
+    <div class="head">
+      <div>
+        <div class="eyebrow">10 · Outcome</div>
+        <h2 class="section-title">How the handed-off design answers the audit</h2>
+      </div>
+      <div class="copy"><p>Mapped against the 15 consolidated issues. The first release went after the problems that made flows confusing or silently broken. The rest sit with the capabilities in the add-on phase.</p></div>
+    </div>
+    <div class="coverage">
+      <div class="cov done"><h3><span class="count">6</span> Addressed</h3>
+        <ul>
+          <li><i>#3</i><div>Undo, redo and safety nets<em>Toolbar undo and redo, version restore</em></div></li>
+          <li><i>#8</i><div>Node health indicators<em>Three states on every node</em></div></li>
+          <li><i>#9</i><div>Audio guidance<em>Formats, size limit, preview</em></div></li>
+          <li><i>#10</i><div>Confusing controls<em>Hover actions, side panel</em></div></li>
+          <li><i>#11</i><div>Field naming<em>Seconds, ranges, digits up to 20</em></div></li>
+          <li><i>#13</i><div>Clear error messages<em>Plain-language issue lists</em></div></li>
+        </ul>
+      </div>
+      <div class="cov part"><h3><span class="count">3</span> Partly addressed</h3>
+        <ul>
+          <li><i>#2</i><div>Governance<em>Version history records who changed what</em></div></li>
+          <li><i>#14</i><div>Navigation and master vs child<em>Flow type explained in setup</em></div></li>
+          <li><i>#15</i><div>Audio quality checks<em>Hear audio and TTS before saving</em></div></li>
+        </ul>
+      </div>
+      <div class="cov later"><h3><span class="count">6</span> Add-on phase</h3>
+        <ul>
+          <li><i>#1</i><div>Testing and staging</div></li>
+          <li><i>#4</i><div>Reuse and templates</div></li>
+          <li><i>#5</i><div>Omnichannel and AI nodes</div></li>
+          <li><i>#6</i><div>Macro library</div></li>
+          <li><i>#7</i><div>Business-hours routing</div></li>
+          <li><i>#12</i><div>Accessibility and keyboard support</div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="outcome-box">
+      <div class="two" style="align-items:start">
+        <div>
+          <div class="eyebrow">Reflection</div>
+          <p class="reflection" style="margin-top:12px">Next time, I’d bring engineering into scoping before polishing the full concept.</p>
+          <div class="copy">
+            <p>The broad exploration was useful. It gave the team a roadmap and produced ideas like node health that survived the cut. But sizing it with developers a few days earlier would have saved a design round.</p>
+            <p>I’d also agree on success measures before handoff, such as time to build a first flow, or how many flows go live with errors, so the impact can be measured and not only seen.</p>
+          </div>
+        </div>
+        <div>
+          <div class="eyebrow">What this project shows</div>
+          <div class="skills" style="margin-top:14px">
+            <div class="skill"><b>Auditing</b><p>Raw notes to a ranked, traceable list of 15 issues.</p></div>
+            <div class="skill"><b>Research</b><p>Use cases by role, size and domain, plus two competitor builders.</p></div>
+            <div class="skill"><b>Systems thinking</b><p>Health states and rules across nine node types.</p></div>
+            <div class="skill"><b>Scoping</b><p>Cut a 21-node concept to a buildable 9-node release.</p></div>
+            <div class="skill"><b>Interaction detail</b><p>Hover actions, fixed panel chrome, explicit routing.</p></div>
+            <div class="skill"><b>Delivery</b><p>Annotated handoff, developer walkthrough, daily build review.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="note">Shared with care for client confidentiality. Screens are cropped, and names and figures shown in the interface are placeholder data from the design files.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer-wrap">
+  <div class="container">
+    <div class="footer-panel">
+      <div>
+        <div class="eyebrow">Let’s connect</div>
+        <h2 class="footer-title">Good products need both clarity and care.</h2>
+        <p class="copy">Open to product design opportunities and conversations about complex digital products.</p>
+        <div class="actions"><a class="btn primary" href="/#work">More case studies</a><a class="btn" href="/assets/resume.pdf" target="_blank" rel="noopener">Resume ↗</a></div>
+      </div>
+      <div class="footer-right">
+        <img src="/assets/images/brand/logo.png" alt="Personal logo" width="140" height="76">
+        <div class="footer-links"><a href="/">Home</a><a href="/#work">Work</a><a href="/about/">About</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© Shrinkhla Shrivastava</span><span>Designed with curiosity. Built with intention.</span></div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Enlarged image">
+  <div class="lb-scroll" id="lbScroll"><img id="lbImg" alt=""></div>
+  <button type="button" id="lbClose" aria-label="Close enlarged image">×</button>
+</div>
+
+<script src="/assets/js/lightbox.js"></script>
+</body>
+</html>
